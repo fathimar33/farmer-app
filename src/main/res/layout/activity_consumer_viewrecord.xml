@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/instagram_story">
+
+    <TextView
+        android:id="@+id/title_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View available crops"
+        android:textColor="#FFFFFF"
+        android:layout_marginLeft="170px"
+        android:layout_marginTop="1100px"
+        android:textAllCaps="true"
+        android:textSize="95px" />
+  <Button
+      android:layout_width="600px"
+      android:layout_height="250px"
+
+      android:backgroundTint="#8BC34A"
+      android:textColor="@color/white"
+      android:textSize="65px"
+      android:text="CLICK HERE"
+      android:clickable="true"
+
+      android:elevation="160dp"
+      android:layout_marginTop="100px"
+      android:layout_marginLeft="400px"
+      android:padding="50px"
+      android:drawableRight="@drawable/baseline_arrow_forward_24"
+      android:id="@+id/buttons">
+
+  </Button>
+
+
+</LinearLayout>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".terms_cond"
+    android:background="@drawable/pexels_mwabonje_1329618">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200px"
+        android:layout_marginLeft="60px"
+        android:layout_marginRight="60px"
+
+        android:background="@drawable/shapes">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#0A290B"
+            android:text="TERMS AND CONDITIONS"
+            android:letterSpacing="0.1"
+            android:textSize="75px"
+            android:layout_marginTop="70px"
+            android:layout_marginLeft="69px"
+            >
+
+        </TextView>
+
+
+        <TextView
+            android:id="@+id/t1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100px"
+            android:layout_marginTop="200px"
+            android:layout_marginRight="100px"
+            android:letterSpacing="0.2"
+            android:lineHeight="100px"
+            android:text="@string/terms"
+            android:textColor="@color/white" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="2100px"
+            android:layout_marginLeft="60px"
+            >
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:id="@+id/c1"
+
+
+                >
+            </CheckBox>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="I accept all Terms and Conditions"
+                android:textSize="65px">
+
+            </TextView>
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+    <Button
+        android:layout_width="600px"
+        android:layout_height="250px"
+        android:id="@+id/b1"
+
+        android:backgroundTint="#FF5722"
+        android:textColor="@color/white"
+        android:textSize="65px"
+        android:text="continue"
+        android:clickable="true"
+
+        android:elevation="160dp"
+        android:layout_marginTop="2500px"
+        android:layout_marginLeft="400px"
+        android:padding="50px"
+        android:drawableRight="@drawable/baseline_arrow_forward_24"
+        ></Button>
+
+
+</RelativeLayout>

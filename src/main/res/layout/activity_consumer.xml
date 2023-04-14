@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".consumer"
+    android:background="@drawable/pexels_mwabonje_1329618"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FARMHUT"
+        android:letterSpacing="0.2"
+        android:textSize="125px"
+        android:layout_marginLeft="350px"
+        android:layout_marginTop="200px"
+        >
+
+    </TextView>
+
+
+
+
+    <RelativeLayout
+        android:layout_width="1200px"
+        android:layout_height="2000px"
+        android:layout_marginLeft="120px"
+        android:layout_marginTop="400px"
+        android:elevation="60dp"
+        android:background="@drawable/shapes"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#2C470C"
+            android:text="SIGN UP"
+            android:textSize="105px"
+            android:layout_marginTop="100px"
+            android:layout_marginLeft="300px"
+            android:id="@+id/t1">
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="200px"
+            android:text="USERNAME:"
+            android:textSize="70px"
+            android:layout_marginTop="80px"
+            android:textColor="#FDFFFB"
+            android:layout_below="@+id/t1"
+            android:id="@+id/t2"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+        <EditText
+            android:id="@+id/text2"
+            android:layout_below="@+id/t2"
+            android:layout_width="800px"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="60px"
+            android:layout_marginTop="100px"
+            android:layout_marginLeft="200px"
+            android:hint="Enter your username">
+
+        </EditText>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="200px"
+            android:layout_marginTop="100px"
+            android:textSize="70px"
+            android:text=" ENTER PASSWORD:"
+            android:layout_below="@+id/text2"
+            android:textColor="#FFFFFF"
+            android:id="@+id/t3"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+        <EditText
+            android:id="@+id/t4"
+            android:layout_below="@+id/t3"
+            android:layout_width="800px"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="60px"
+            android:layout_marginTop="100px"
+            android:layout_marginLeft="200px"
+            android:hint="Enter your password"
+            >
+
+        </EditText>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="200px"
+            android:layout_marginTop="100px"
+            android:textSize="70px"
+            android:text=" CONFIRM PASSWORD:"
+            android:layout_below="@+id/t4"
+            android:textColor="#FFFFFF"
+            android:id="@+id/t7"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+        <EditText
+            android:id="@+id/t8"
+            android:layout_below="@+id/t7"
+            android:layout_width="800px"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="60px"
+            android:layout_marginTop="100px"
+            android:layout_marginLeft="200px"
+            android:hint="Enter your password"
+            >
+
+        </EditText>
+        <Button
+            android:layout_width="400px"
+            android:layout_height="200px"
+            android:layout_below="@+id/t4"
+            android:backgroundTint="#273318"
+            android:layout_marginLeft="380px"
+
+            android:layout_marginTop="580px"
+            android:text="submit"
+            android:id="@+id/b1"
+            android:textColor="@color/white">
+
+        </Button>
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Already a user?"
+            android:layout_marginTop="2470px"
+            android:layout_marginLeft="270px"
+            android:textColor="@color/white"
+            android:textSize="65px"
+            >
+
+        </TextView>
+        <Button
+            android:layout_width="400px"
+            android:layout_height="200px"
+            android:layout_below="@+id/t4"
+            android:backgroundTint="#EA6237"
+            android:layout_marginLeft="80px"
+
+            android:layout_marginTop="2470px"
+            android:text="login"
+            android:id="@+id/b2"
+            android:textColor="@color/white">
+
+        </Button>
+
+    </LinearLayout>
+
+</RelativeLayout>

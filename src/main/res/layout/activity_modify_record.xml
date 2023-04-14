@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp" >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FARMER DETAILS:"
+        android:layout_marginTop="660px"
+        android:textColor="#3A531C"
+        android:textSize="75px"
+        android:layout_marginBottom="20px"
+        >
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/subject_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="150px"
+        android:ems="10"
+        android:hint="enter farmer details"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CROP DETAILS:"
+        android:textColor="#3A531C"
+        android:textSize="75px"
+        android:layout_marginBottom="20px"
+        >
+
+    </TextView>
+    <EditText
+        android:id="@+id/description_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="enter crop details"
+        >
+    </EditText>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_update"
+            android:layout_width="600px"
+            android:layout_height="200px"
+            android:textSize="75px"
+            android:layout_marginRight="20px"
+            android:layout_marginTop="100px"
+            android:textColor="@color/white"
+            android:backgroundTint="#8BC34A"
+            android:text="update" />
+
+        <Button
+            android:id="@+id/btn_delete"
+            android:layout_width="600px"
+            android:textSize="75px"
+            android:textColor="@color/white"
+            android:layout_height="200px"
+            android:layout_marginTop="100px"
+            android:backgroundTint="#8BC34A"
+            android:layout_weight="1"
+            android:text="delete" />
+    </LinearLayout>
+
+</LinearLayout>

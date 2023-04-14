@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FARMER DETAILS:"
+        android:layout_marginTop="660px"
+        android:textColor="#3A531C"
+        android:textSize="75px"
+        android:layout_marginBottom="20px"
+        >
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/subject_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:backgroundTint="@color/black"
+        android:hint="enter farmer details" >
+
+        <requestFocus />
+    </EditText>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CROP DETAILS:"
+        android:textColor="#3A531C"
+        android:layout_marginTop="100px"
+        android:textSize="75px"
+        android:layout_marginBottom="20px"
+        ></TextView>
+    <EditText
+        android:id="@+id/description_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="enter crops details"
+        >
+    </EditText>
+
+    <Button
+        android:id="@+id/add_record"
+        android:layout_width="400px"
+        android:layout_height="200px"
+        android:layout_marginTop="70px"
+        android:text="add_record"
+        android:backgroundTint="#8BC34A"
+        android:textColor="@color/white"/>
+
+</LinearLayout>

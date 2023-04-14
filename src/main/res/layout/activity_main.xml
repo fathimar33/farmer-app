@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/instagram_story"
+    >
+
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/styling">
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="230px"
+        android:layout_marginTop="1100px"
+        android:letterSpacing="0.4"
+        android:text="FARMHUT"
+        android:textColor="@color/white"
+        android:textSize="135px">
+
+    </TextView>
+
+    <Button
+         android:layout_width="600px"
+         android:layout_height="250px"
+         android:id="@+id/b1"
+
+         android:backgroundTint="#8BC34A"
+         android:textColor="@color/white"
+         android:textSize="65px"
+         android:text="EXPLORE"
+         android:clickable="true"
+
+        android:elevation="160dp"
+         android:layout_marginTop="1400px"
+         android:layout_marginLeft="400px"
+         android:padding="50px"
+         android:drawableRight="@drawable/baseline_arrow_forward_24"
+         >
+
+     </Button>
+
+</RelativeLayout>
